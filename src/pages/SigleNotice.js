@@ -41,7 +41,7 @@ export default class SigleNotice extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-10 mx-auto col-md-6 my-3">
-                            <h2 className="text-uppercase text-orange text-center">Cargando receta...</h2>
+                            <h2 className="text-uppercase text-orange text-center">Cargando...</h2>
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ export default class SigleNotice extends Component {
             <div className="container my-5">
                 <div className="row">
                     <div className="col-10 mx-auto col-md-6 my-3">
-                        <Link to="/Notice" className="btn btn-warning mb-5 text-capitalize">Volver a la lista de recetas</Link>
+                        <Link to="/Notice" className="btn btn-warning mb-5 text-capitalize">Volver a recetas</Link>
                         <img src={image_url} className="d-block w-100" style={{maxHeight:"30rem"}} alt="recipe"/>
                     </div>
                     <div className="col-10 mx-auto col-md-6 my-3">
