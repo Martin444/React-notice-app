@@ -6,7 +6,7 @@ export default class Home extends Component {
     render() {
         return (
                 <Header title="Recetas Tartagal">
-                    <Link to="Notice" className="text-uppercase btn btn-secondary btn-lg mt-3">
+                    <Link to="Recetas" className="text-uppercase btn btn-secondary btn-lg mt-3">
                         Buscar Recetas
                     </Link>
                 </Header>

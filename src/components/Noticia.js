@@ -18,7 +18,7 @@ export default class Noticia extends Component {
                     </div>
                     {/* Footer de la carta */}
                     <div className="card-footer">
-                        <Link to={`/Notice/${recipe_id}`} className="btn btn-primary text-capitalize">
+                        <Link to={`/Recetas/${recipe_id}`} className="btn btn-primary text-capitalize">
                             Detalles
                         </Link>
                         <a href={source_url} target="_blank" rel="noopener noreferrer" className="btn btn-success mx-2 text-capitalize">URL de la Receta</a>
