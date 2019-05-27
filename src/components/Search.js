@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class Search extends Component {
     render() {
-        const {handleChange, handleSubmit, recipes, search} = this.props;
+        const {handleChange, handleSubmit, search} = this.props;
         return (
             <div className="container">
                 <div className="row">
@@ -12,13 +12,13 @@ export default class Search extends Component {
                         </h1>
                         <form className="mt-4">
                             <label htmlFor="search" className="text-capitalize">
-                                Tipos de recetas separados con comma
+                                Que tipo de comida estas buscando?
                             </label>
                             <div className="input-group">
                                 <input type="text" 
                                 name="search" 
                                 className="form-control form-control-lg" 
-                                placeholder="Pollo, Lomo, etc."
+                                placeholder="Buscar..."
                                 value={search}
                                 onChange={handleChange}/>
                             <div className="input-group-append">
